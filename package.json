@@ -6,9 +6,13 @@
   "repository": "git@github.com:nowherewashere/study_2025-2026_infosec.git",
   "author": "Aleksandr Mazurskiy <amd.mazurskiy@gmail.com>",
   "license": "CC-BY-4.0",
-    "config": {
-	"commitizen": {
-	    "path": "cz-customizable"
-	}
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
     }
+  },
+  "dependencies": {
+    "pnpm": "^10.29.3",
+    "standard-changelog": "^7.0.1"
+  }
 }
