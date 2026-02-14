@@ -16,6 +16,9 @@ crossref:
 format:
   ### Pdf output format
   beamer:
+    mainfont: DejaVu Serif
+    sansfont: DejaVu Sans
+    monofont: DejaVu Sans Mono
     pdf-engine: xelatex
     toc: true
     toc-title: Содержание
@@ -35,10 +38,11 @@ format:
     babel-otherlangs: english
   ### Html output
   revealjs:
+    css: _resources/css/reveal-local.css
     transition: slide
     margin: 0.2
     smaller: true
     slide-number: true
     output-ext: html
-    theme: beige
+    theme: simple
     logo: _resources/image/logo_rudn.png
