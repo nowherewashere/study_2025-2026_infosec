@@ -1,0 +1,29 @@
+:root {
+  --r-background-color: #f6f0e4;
+  --r-main-font: "DejaVu Sans", "Liberation Sans", "Arial", sans-serif;
+  --r-heading-font: "DejaVu Serif", "Liberation Serif", "Times New Roman", serif;
+  --r-main-color: #111111;
+  --r-heading-color: #111111;
+  --r-link-color: #1b4b73;
+  --r-link-color-hover: #11324c;
+}
+
+.reveal {
+  font-family: var(--r-main-font) !important;
+  color: var(--r-main-color) !important;
+  background: var(--r-background-color) !important;
+}
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: var(--r-heading-font) !important;
+  color: var(--r-heading-color) !important;
+}
+
+.reveal .slides {
+  text-align: left;
+}

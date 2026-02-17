@@ -1,0 +1,48 @@
+project:
+  title: "presentation"
+  output-dir: "_output"
+
+standalone: true
+self-contained: true
+slide-level: 2
+
+## Generic options
+lang: ru-RU
+crossref:
+  lof-title: Список иллюстраций
+  lot-title: Список таблиц
+  lol-title: Листинги
+## Formats
+format:
+  ### Pdf output format
+  beamer:
+    mainfont: DejaVu Serif
+    sansfont: DejaVu Sans
+    monofont: DejaVu Sans Mono
+    pdf-engine: xelatex
+    toc: true
+    toc-title: Содержание
+    number-sections: true
+    colorlinks: false
+    toc-depth: 2
+    aspectratio: 169
+    section-titles: true
+    incremental: true
+    navigation: horizontal
+    csquotes: true
+    indent: true
+    include-in-header:
+      - file: _resources/tex/beamer.tex
+    #### Language
+    babel-lang: russian
+    babel-otherlangs: english
+  ### Html output
+  revealjs:
+    css: _resources/css/reveal-local.css
+    transition: slide
+    margin: 0.2
+    smaller: true
+    slide-number: true
+    output-ext: html
+    theme: simple
+    logo: _resources/image/logo_rudn.png
